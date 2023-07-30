@@ -30,7 +30,7 @@ public class ToyCollection implements iToyCollection {
 
     @Override
     public void writeToyToOutputFile(iToy toy) {
-        try (FileWriter fw = new FileWriter("output.txt")) {
+        try (FileWriter fw = new FileWriter("output.txt", true)) {
             if (toy != null) {
                 fw.write(toy.toString() + "\n");
             } else {
