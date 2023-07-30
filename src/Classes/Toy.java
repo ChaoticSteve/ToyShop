@@ -25,4 +25,13 @@ public class Toy implements iToy {
     public String getName() {
         return this.name;
     }
+
+    @Override
+    public String toString() {
+        return "Toy{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", frequency=" + frequency +
+                '}';
+    }
 }
