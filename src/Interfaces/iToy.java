@@ -1,7 +1,7 @@
 package Interfaces;
 
 public interface iToy {
-    void getId();
-    void getFrequency();
-    void getName();
+    int getId();
+    int getFrequency();
+    String getName();
 }
